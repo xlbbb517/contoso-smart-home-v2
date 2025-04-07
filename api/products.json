@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Meowtica Smart Hub",
+    "description": "The central control unit for your Meowtica smart home ecosystem. Connect all your smart devices into one seamless network with our flagship Smart Hub.",
+    "price": 129.99
+  },
+  {
+    "id": 2,
+    "name": "Purr Motion Sensor",
+    "description": "Detect movement in your home with cat-like reflexes using our Purr Motion Sensor. Features pet-friendly detection to reduce false alarms.",
+    "price": 39.99
+  },
+  {
+    "id": 3,
+    "name": "Whisker Smart Thermostat",
+    "description": "Maintain perfect temperature with intelligent climate control using our Whisker Smart Thermostat.",
+    "price": 89.99
+  },
+  {
+    "id": 4,
+    "name": "Meowtica Security Camera",
+    "description": "Keep an eye on your home with crystal clear 1080p HD video and advanced night vision.",
+    "price": 79.99
+  },
+  {
+    "id": 5,
+    "name": "Paw Print Smart Lock",
+    "description": "Upgrade your home security with the Paw Print Smart Lock, featuring fingerprint recognition, PIN code entry, and remote smartphone access.",
+    "price": 149.99
+  },
+  {
+    "id": 6,
+    "name": "Nightlight Smart Bulbs (4-Pack)",
+    "description": "Transform your home lighting with Nightlight Smart Bulbs, offering 16 million colors and dimmable white light options.",
+    "price": 49.99
+  },
+  {
+    "id": 7,
+    "name": "PurrFect Water Sensor",
+    "description": "Protect your home from water damage with the PurrFect Water Sensor. Detects leaks and moisture with immediate alerts.",
+    "price": 29.99
+  },
+  {
+    "id": 8,
+    "name": "Meowtica Smart Doorbell",
+    "description": "Never miss a visitor with the Meowtica Smart Doorbell. Features HD video, motion detection, and two-way audio.",
+    "price": 119.99
+  },
+  {
+    "id": 9,
+    "name": "WhiskerSwitch Smart Plugs (2-Pack)",
+    "description": "Transform any appliance into a smart device with WhiskerSwitch Smart Plugs.",
+    "price": 34.99
+  },
+  {
+    "id": 10,
+    "name": "Smart Coffee Maker",
+    "description": "Transform your morning routine with our Smart Coffee Maker. Features remote brewing via smartphone app, customizable schedules, and multiple brew strength options.",
+    "price": 89.99
+  },
+  {
+    "id": 11,
+    "name": "Smart Vacuum",
+    "description": "Keep your home clean with intelligent navigation and powerful suction. Features room mapping, automatic recharging, and app control.",
+    "price": 249.99
+  },
+  {
+    "id": 12,
+    "name": "Meowtica Track Collar",
+    "description": "Keep track of your beloved pets with real-time GPS location tracking, geofencing with custom safe zones, and activity monitoring.",
+    "price": 89.99
+  },
+  {
+    "id": 13,
+    "name": "Paws Mini Smart Hub",
+    "description": "The perfect entry-level smart home controller in a compact size.",
+    "price": 69.99
+  },
+  {
+    "id": 14,
+    "name": "Smart Robot Mop",
+    "description": "Keep your floors spotless with advanced LiDAR mapping, precision water flow control, and multiple cleaning modes.",
+    "price": 249.99
+  },
+  {
+    "id": 15,
+    "name": "Purr Temperature Sensor",
+    "description": "Monitor precise temperature and humidity levels throughout your home.",
+    "price": 34.99
+  },
+  {
+    "id": 16,
+    "name": "Meowtica Outdoor Camera",
+    "description": "Protect your property's perimeter with the Meowtica Outdoor Camera, featuring 2K HDR video.",
+    "price": 149.99
+  },
+  {
+    "id": 17,
+    "name": "WhiskerNet Pro Hub",
+    "description": "Take your smart home to the next level with enhanced wireless range, Thread and Matter compatibility, and support for up to 200 devices.",
+    "price": 179.99
+  },
+  {
+    "id": 18,
+    "name": "WhiskerSense Ceiling Fan Controller",
+    "description": "Transform your ordinary ceiling fan into a smart climate control device with app control and automation.",
+    "price": 59.99
+  },
+  {
+    "id": 19,
+    "name": "NightGlow Smart Light Strip",
+    "description": "Add ambiance and accent lighting to any space with the flexible NightGlow Smart Light Strip.",
+    "price": 39.99
+  },
+  {
+    "id": 20,
+    "name": "Whisker Ceiling Light",
+    "description": "Replace your standard ceiling fixture with the Whisker Ceiling Light for smart illumination.",
+    "price": 79.99
+  },
+  {
+    "id": 21,
+    "name": "PurrFect Climate Monitor",
+    "description": "Track and optimize environmental conditions throughout your home with wireless satellite sensors for multiple rooms.",
+    "price": 99.99
+  },
+  {
+    "id": 22,
+    "name": "WhiskerControl Smart Power Strip",
+    "description": "Upgrade your workspace or entertainment center with individually controllable outlets.",
+    "price": 49.99
+  },
+  {
+    "id": 23,
+    "name": "PurrFect Outdoor Smart Plug",
+    "description": "Extend your smart home to the outdoors with this weatherproof dual outlet smart plug.",
+    "price": 39.99
+  },
+  {
+    "id": 24,
+    "name": "Whisker Mini Smart Plug",
+    "description": "The most compact smart plug in our lineup, designed to fit into tight spaces.",
+    "price": 19.99
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "postAttachCommand": "./start.sh",
+  "customizations": {
+    "codespaces": {
+      "skipOryx": true,
+      "experimentalGitHooks": ".githooks",
+      "openFiles": [
+        "src/app/page.tsx",
+        "src/app/products/[slug]/page.tsx",
+        "src/app/globals.css"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
+}

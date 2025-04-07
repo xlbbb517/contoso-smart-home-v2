@@ -1,0 +1,5 @@
+{
+    "files.exclude": {
+        "npm-ci-done": true
+    }
+}

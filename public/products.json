@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "Meowtica Smart Hub",
+    "nameZh": "Meowtica智能中枢",
+    "price": 129.99,
+    "rating": 4.8,
+    "category": "Smart Hubs",
+    "brand": "Meowtica",
+    "slug": "meowtica-smart-hub",
+    "description": "The central control unit for your Meowtica smart home ecosystem. Connect all your smart devices into one seamless network with our flagship Smart Hub. Featuring voice control capabilities, smartphone integration, and support for over 100 smart home device brands. Create custom automation scenes, schedule routines, and control your entire home with simple voice commands or through our intuitive app.",
+    "descriptionZh": "Meowtica智能家居生态系统的中央控制单元。通过我们旗舰智能中枢将所有智能设备连接到一个无缝网络中。具备语音控制功能、智能手机集成和对100多个智能家居设备品牌的支持。创建自定义自动化场景，安排日常程序，并通过简单的语音命令或直观的应用程序控制您的整个家居。",
+    "manual": "/manuals/product_info_1.md",
+    "images": [
+      "/images/1/242e7165-7c79-4f97-8e63-280f9f8982e2.png",
+      "/images/1/42614d79-4013-4303-9750-7c48f3fb61a9.png",
+      "/images/1/6a3111b5-3803-473b-a3dd-12056becea0a.png",
+      "/images/1/cb803f98-9bfa-4156-b0ee-df0581ae2862.png"
+    ],
+    "summaryOfReviewComments": "The Meowtica Smart Hub receives exceptional praise for its easy setup process and broad device compatibility. Users particularly appreciate the intuitive app interface and responsive voice recognition features. Some reviewers mention occasional connectivity issues with certain third-party devices, but most agree the regular software updates have continuously improved performance."
+  },
+  {
+    "id": 2,
+    "name": "Purr Motion Sensor",
+    "nameZh": "Purr动作感应器",
+    "price": 39.99,
+    "rating": 4.5,
+    "category": "Sensors",
+    "brand": "Meowtica",
+    "slug": "purr-motion-sensor",
+    "description": "Detect movement in your home with cat-like reflexes using our Purr Motion Sensor. This sleek, wireless sensor features pet-friendly detection to reduce false alarms while maintaining security. With night vision capabilities and instant smartphone alerts, you'll always know what's happening in your home. Battery-powered with an impressive 18-month battery life, it connects seamlessly with your Meowtica Smart Hub for comprehensive home monitoring.",
+    "descriptionZh": "使用我们的Purr动作感应器，以猫咪般敏捷的反应检测您家中的动作。这款时尚的无线感应器具有宠物友好检测功能，减少误报同时保障安全。凭借夜视功能和即时智能手机提醒，您始终了解家中发生的情况。电池供电，令人印象深刻的18个月电池寿命，可与您的Meowtica智能中枢无缝连接，实现全面的家庭监控。",
+    "manual": "/manuals/product_info_2.md",
+    "images": [
+      "/images/2/0b0e0e52-e3bf-4bf7-b1e1-3989c91d51a9.png",
+      "/images/2/5b73df27-5275-4437-b7cf-45b1eee175fb.png",
+      "/images/2/6cc997c4-da5d-432c-91f7-216a21d7e690.png",
+      "/images/2/791d0836-e0ad-4b46-bc79-1abcf292b700.png"
+    ],
+    "summaryOfReviewComments": "The Purr Motion Sensor receives high marks for its reliable pet-friendly detection and impressive battery life. Many users appreciate how seamlessly it integrates with the Meowtica ecosystem. While most reviews are positive, some users mention they wish the detection range was slightly larger for bigger rooms."
+  },
+  {
+    "id": 3,
+    "name": "Whisker Smart Thermostat",
+    "nameZh": "Whisker智能温控器",
+    "price": 89.99,
+    "rating": 4.7,
+    "category": "Climate Control",
+    "brand": "Meowtica",
+    "slug": "whisker-smart-thermostat",
+    "description": "Maintain perfect temperature with intelligent climate control using our Whisker Smart Thermostat. This energy-efficient thermostat learns your preferences over time, automatically adjusting to create the ideal environment while reducing energy costs. Control remotely via smartphone app or voice commands through your Smart Hub. The intuitive touchscreen display and elegant design complement any home decor.",
+    "descriptionZh": "使用我们的Whisker智能温控器通过智能气候控制保持完美温度。这款节能温控器会随着时间学习您的偏好，自动调节以创造理想环境，同时降低能源成本。通过智能手机应用或通过智能中枢进行语音命令远程控制。直观的触摸屏显示和优雅的设计与任何家居装饰相得益彰。",
+    "manual": "/manuals/product_info_3.md",
+    "images": [
+      "/images/3/22ae32ed-7f8f-4238-b7f1-fe5f1dd5a449.png",
+      "/images/3/09887388-3a47-4198-ab19-e18d23768ac5.png",
+      "/images/3/2faec00a-4ee2-4711-aec9-240fd6e342c5.png",
+      "/images/3/a07b9539-e3ef-4dee-969f-076b0d7ac448.png"
+    ],
+    "summaryOfReviewComments": "The Whisker Smart Thermostat is highly regarded for its energy-saving capabilities and sleek design. Users report significant reductions in their heating and cooling bills, with the learning algorithm receiving particular praise. Some users note that initial setup requires following instructions carefully, but the resulting performance makes it worthwhile."
+  },
+  {
+    "id": 4,
+    "name": "Meowtica Security Camera",
+    "nameZh": "Meowtica安全摄像头",
+    "price": 79.99,
+    "rating": 4.6,
+    "category": "Security",
+    "brand": "Meowtica",
+    "slug": "meowtica-security-camera",
+    "description": "Keep an eye on your home with crystal clear 1080p HD video and advanced night vision. The Meowtica Security Camera features motion detection with instant alerts, two-way audio communication, and encrypted cloud storage for your footage. Weather-resistant design makes it suitable for both indoor and outdoor installation, while the 130° wide-angle lens ensures comprehensive coverage of your property.",
+    "descriptionZh": "通过清晰的1080p高清视频和先进的夜视功能密切关注您的家。Meowtica安全摄像头具有动态检测功能，可即时提醒、双向音频通信和加密云存储您的录像。耐候设计使其适用于室内和室外安装，而130°广角镜头确保全面覆盖您的财产。",
+    "manual": "/manuals/product_info_4.md",
+    "images": [
+      "/images/4/0889d8c0-bb85-4b77-a749-15682f693c49.png",
+      "/images/4/37204d04-e4bb-4140-811e-1f53b135f2ea.png",
+      "/images/4/8076ecb5-4e4d-4958-8b77-e0bad466cc8a.png",
+      "/images/4/8705bdcd-85f6-44c1-b043-84b4b8f44493.png"
+    ],
+    "summaryOfReviewComments": "Users love the Meowtica Security Camera for its exceptional video quality and reliable motion detection. The weather-resistant design has held up well through various conditions, and the two-way audio feature is frequently highlighted as a favorite. Some users wish for longer free cloud storage options, but most agree the overall value is excellent."
+  },
+  {
+    "id": 5,
+    "name": "Paw Print Smart Lock",
+    "nameZh": "猫爪智能锁",
+    "price": 149.99,
+    "rating": 4.4,
+    "category": "Security",
+    "brand": "Meowtica",
+    "slug": "paw-print-smart-lock",
+    "description": "Upgrade your home security with the Paw Print Smart Lock, featuring fingerprint recognition, PIN code entry, and remote smartphone access. Create temporary access codes for guests and receive instant notifications whenever your door is unlocked. The sleek, tamper-resistant design installs easily on most standard doors, while the auto-lock feature ensures your home is always secure.",
+    "descriptionZh": "使用Paw Print智能锁升级您的家庭安全，具有指纹识别、PIN码输入和远程智能手机访问功能。为客人创建临时访问代码，并在门锁打开时立即收到通知。时尚、防篡改设计易于安装在大多数标准门上，自动锁定功能确保您的家始终安全。",
+    "manual": "/manuals/product_info_5.md",
+    "images": [
+      "/images/5/0a9b0b18-0304-41a2-8367-155479b77985.png",
+      "/images/5/92c773f6-ed44-4570-992d-3e0d2af55cbf.png",
+      "/images/5/a1b30c60-bb66-4bef-a0b4-0766400e306c.png",
+      "/images/5/cf761719-410d-4d76-9ddb-9ac99d3125b8.png"
+    ],
+    "summaryOfReviewComments": "The Paw Print Smart Lock receives great feedback for its reliable fingerprint recognition and sleek design. Users appreciate how easy it is to manage access for family members and temporary guests. Battery life typically lasts 6-8 months with normal use, and the low battery warnings provide ample time for replacement."
+  },
+  {
+    "id": 6,
+    "name": "Nightlight Smart Bulbs (4-Pack)",
+    "nameZh": "夜光智能灯泡（4只装）",
+    "price": 49.99,
+    "rating": 4.9,
+    "category": "Lighting",
+    "brand": "Meowtica",
+    "slug": "nightlight-smart-bulbs",
+    "description": "Transform your home lighting with Nightlight Smart Bulbs, offering 16 million colors and dimmable white light options. Control individually or in groups through the Meowtica app or voice commands. Create custom lighting scenes, set schedules, and enjoy music sync features that respond to your favorite tunes. These energy-efficient LEDs last up to 25,000 hours while using just a fraction of the energy of traditional bulbs.",
+    "descriptionZh": "用Nightlight智能灯泡改变您的家居照明，提供1600万种颜色和可调光白光选项。通过Meowtica应用程序或语音命令单独或成组控制。创建自定义照明场景，设置时间表，并享受与您喜爱的音乐同步的功能。这些节能LED灯可持续使用长达25,000小时，仅消耗传统灯泡能源的一小部分。",
+    "manual": "/manuals/product_info_6.md",
+    "images": [
+      "/images/6/1beb3fb6-ae55-4a64-a3a4-bdccbd2fa8b9.png",
+      "/images/6/9f88331e-5607-4462-b216-10d690b196f9.png",
+      "/images/6/aaf5d1e9-adfc-4ec7-ba60-455b6fd08255.png",
+      "/images/6/bd7decf6-c177-44f5-97bc-7f793ccaf7bc.png"
+    ],
+    "summaryOfReviewComments": "Users are extremely impressed with the vibrant colors and smooth dimming capabilities of the Nightlight Smart Bulbs. The music sync feature is particularly popular for entertaining, and many reviewers mention how intuitive the app controls are. The bulbs respond quickly to commands and maintain reliable connections to the hub."
+  },
+  {
+    "id": 7,
+    "name": "PurrFect Water Sensor",
+    "nameZh": "PurrFect水感应器",
+    "price": 29.99,
+    "rating": 4.3,
+    "category": "Sensors",
+    "brand": "Meowtica",
+    "slug": "purrfect-water-sensor",
+    "description": "Protect your home from water damage with the PurrFect Water Sensor. This compact device detects leaks and moisture, sending immediate alerts to your smartphone when water is detected. Place near washing machines, dishwashers, water heaters, or bathrooms to catch potential problems before they cause serious damage. The long-lasting battery and wireless design allow for flexible placement anywhere in your home.",
+    "descriptionZh": "使用PurrFect水感应器保护您的家免受水损害。这款紧凑型设备可检测泄漏和湿气，在检测到水时立即向您的智能手机发送警报。放置在洗衣机、洗碗机、热水器或浴室附近，在造成严重损害前发现潜在问题。长效电池和无线设计允许灵活放置在家中任何地方。",
+    "manual": "/manuals/product_info_7.md",
+    "images": [
+      "/images/7/088c709c-cf18-4253-8664-3e474b94635c.png",
+      "/images/7/1a8555cc-a1e4-4fae-9624-8eacfbe64bc8.png",
+      "/images/7/45e09e69-17c4-47d9-a501-2f8177e34349.png",
+      "/images/7/5df18ce1-7751-4100-9996-279ba57265f6.png"
+    ],
+    "summaryOfReviewComments": "The PurrFect Water Sensor has saved many homes from potentially serious water damage, according to numerous reviews. Users appreciate the loud local alarm in addition to smartphone notifications. Some reviewers mention they'd prefer a slightly larger detection pad, but most agree the sensor's reliability and battery life are excellent."
+  },
+  {
+    "id": 8,
+    "name": "Meowtica Smart Doorbell",
+    "nameZh": "Meowtica智能门铃",
+    "price": 119.99,
+    "rating": 4.8,
+    "category": "Security",
+    "brand": "Meowtica",
+    "slug": "meowtica-smart-doorbell",
+    "description": "Never miss a visitor with the Meowtica Smart Doorbell. This HD video doorbell features motion detection, two-way audio, and night vision capabilities. Receive instant notifications when someone approaches your door, and speak to visitors from anywhere using your smartphone. Package detection technology helps protect deliveries, while the weather-resistant design ensures reliable operation in any climate.",
+    "descriptionZh": "使用Meowtica智能门铃，永不错过访客。这款高清视频门铃具有运动检测、双向音频和夜视功能。当有人接近您的门时收到即时通知，并使用您的智能手机从任何地方与访客交谈。包裹检测技术帮助保护快递，而耐候设计确保在任何气候条件下可靠运行。",
+    "manual": "/manuals/product_info_8.md",
+    "images": [
+      "/images/8/3a9b1875-9114-4a53-adeb-4a79bf63c29f.png",
+      "/images/8/4a970f66-d6fa-4fef-8d6d-7d699f37e056.png",
+      "/images/8/95c39d34-404e-4c47-862f-b71e9acae275.png",
+      "/images/8/9bae9074-5f03-4093-b179-e22ffc81073d.png"
+    ],
+    "summaryOfReviewComments": "The Meowtica Smart Doorbell receives excellent reviews for its clear video quality and reliable notifications. The package detection feature is especially popular, with many users reporting it has prevented porch theft. Installation is straightforward for most users, and the battery typically lasts 3-4 months on a single charge."
+  },
+  {
+    "id": 9,
+    "name": "WhiskerSwitch Smart Plugs (2-Pack)",
+    "nameZh": "WhiskerSwitch智能插座（2只装）",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Smart Plugs",
+    "brand": "Meowtica",
+    "slug": "whiskerswitch-smart-plugs",
+    "description": "Transform any appliance into a smart device with WhiskerSwitch Smart Plugs. Control lamps, fans, coffee makers, and more from your smartphone or voice commands. Set schedules, create routines, and monitor energy usage to identify power-hungry devices. The compact design won't block adjacent outlets, and the surge protection feature safeguards your electronics.",
+    "descriptionZh": "使用WhiskerSwitch智能插座将任何电器转变为智能设备。通过智能手机或语音命令控制灯具、风扇、咖啡机等。设置时间表，创建例行程序，并监控能源使用情况以识别耗电设备。紧凑设计不会阻塞相邻插座，浪涌保护功能保障您的电子设备安全。",
+    "manual": "/manuals/product_info_9.md",
+    "images": [
+      "/images/9/06d43b19-8fa0-4173-8f14-4d15762fee06.png",
+      "/images/9/4011ff72-a468-4ad7-89e5-dfc4173715f2.png",
+      "/images/9/6291aedd-1873-42a6-aca9-b51cd4880fa8.png",
+      "/images/9/a7c58e38-4e60-4ac9-89c4-0b708c806d8c.png"
+    ],
+    "summaryOfReviewComments": "Users love the WhiskerSwitch Smart Plugs for their reliability and energy monitoring capabilities. Many reviews mention how helpful the usage statistics are for identifying energy-hungry appliances. The compact design receives particular praise for allowing adjacent outlets to remain usable."
+  },
+  {
+    "id": 10,
+    "name": "Smart Coffee Maker",
+    "nameZh": "智能咖啡机",
+    "price": 89.99,
+    "rating": 4.4,
+    "category": "Home Appliances",
+    "brand": "Meowtica",
+    "slug": "smart-coffee-maker",
+    "description": "Transform your morning routine with our Smart Coffee Maker. Features remote brewing via smartphone app, customizable schedules, and multiple brew strength options. With temperature control for optimal flavor, water level monitoring, and voice command compatibility. The 12-cup capacity glass carafe includes auto-pause brewing, keep-warm function, and the unit comes with a reusable gold-tone filter. Monitor your coffee maker remotely, receive fresh coffee notifications, and enjoy perfect brewing with adjustable temperatures from 185°F to 205°F.",
+    "descriptionZh": "使用我们的智能咖啡机改变您的晨间习惯。具有通过智能手机应用程序远程冲泡、可自定义时间表和多种冲泡强度选项的功能。具有温度控制以获得最佳风味、水位监控和语音命令兼容性。12杯容量玻璃壶包括自动暂停冲泡、保温功能，设备配有可重复使用的金色滤网。远程监控您的咖啡机，接收新鲜咖啡通知，享受可调温度从85°C到96°C的完美冲泡。",
+    "manual": "/manuals/product_info_10.md",
+    "images": [
+      "/images/10/024934d4-5630-4ec2-a439-29bd7a9f28a0.png",
+      "/images/10/0fc43560-c387-4366-a914-91308186344d.png",
+      "/images/10/273b611f-dd6f-4b9f-b329-e48fe7ff39f9.png",
+      "/images/10/5a8b7c17-8fa9-450d-83ee-99b2cc9c8685.png"
+    ],
+    "summaryOfReviewComments": "Users praise the Smart Coffee Maker for transforming their morning routines with its scheduling features and precise temperature control. The app interface is intuitive, though occasional connectivity issues are reported. Coffee enthusiasts particularly appreciate the custom brew profiles and consistent quality. The voice control integration with Meowtica hub receives high praise, while the maintenance reminders and water level monitoring are noted as thoughtful features."
+  },
+  {
+    "id": 11,
+    "name": "Smart Vacuum",
+    "nameZh": "智能吸尘器",
+    "price": 249.99,
+    "rating": 4.7,
+    "category": "Home Appliances",
+    "brand": "Meowtica",
+    "slug": "smart-vacuum",
+    "description": "Keep your home clean with intelligent navigation and powerful suction. Features room mapping, automatic recharging, and app control. The Smart Vacuum includes 2500Pa suction power, up to 120 minutes battery life, and LiDAR mapping technology for efficient cleaning of your entire home.",
+    "descriptionZh": "通过智能导航和强大吸力保持家居清洁。具有房间映射、自动充电和应用程序控制功能。智能吸尘器包括2500Pa吸力、长达120分钟的电池寿命和LiDAR映射技术，可高效清洁您的整个家居。",
+    "manual": "/manuals/product_info_11.md",
+    "images": [
+      "/images/11/5abf43e4-85b1-460f-bb30-563fb623d14e.png",
+      "/images/11/10b59349-0c6c-4d0b-a459-8a20037a6c2d.png",
+      "/images/11/27c5ac9a-6a43-4f9e-81ca-9abdcddee1d1.png",
+      "/images/11/997a0954-3952-401b-869d-ff16fb97d0f2.png"
+    ],
+    "summaryOfReviewComments": "The Smart Vacuum has completely changed cleaning routines for many users. The mapping technology creates accurate layouts of homes after just one cleaning. Users love being able to select specific rooms to clean when short on time. The suction power is impressive even on thick area rugs, and it handles pet hair with ease. The integration with other Meowtica devices makes this vacuum incredibly convenient."
+  },
+  {
+    "id": 12,
+    "name": "Meowtica Track Collar",
+    "nameZh": "Meowtica追踪项圈",
+    "price": 89.99,
+    "rating": 4.7,
+    "category": "Pet Technology",
+    "brand": "Meowtica",
+    "slug": "meowtica-track-collar",
+    "description": "Keep track of your beloved pets with the Meowtica Track Collar. Features real-time GPS location tracking, geofencing with custom safe zones, and activity and health monitoring. This waterproof (IP67 rated), lightweight collar offers up to 7 days of battery life and includes a LED night light for visibility. Compatible with most pet sizes and connects seamlessly to the Meowtica Smart Hub for enhanced features.",
+    "descriptionZh": "使用Meowtica追踪项圈跟踪您心爱的宠物。具有实时GPS位置追踪、带有自定义安全区域的地理围栏以及活动和健康监控功能。这款防水（IP67级）、轻便的项圈提供长达7天的电池寿命，并包含LED夜灯以提高可见度。兼容大多数宠物尺寸，并与Meowtica智能中枢无缝连接以获得增强功能。",
+    "manual": "/manuals/product_info_12.md",
+    "images": [
+      "/images/12/1fc8a3a0-296b-4cee-b9eb-3d5b62636e18.png",
+      "/images/12/47433b71-f823-4865-8ed7-fa50b3f23ad6.png",
+      "/images/12/5359d889-47d1-4336-aa3e-79d135d4f733.png",
+      "/images/12/20392650-1114-49b6-9626-4b760cb6e80e.png"
+    ],
+    "summaryOfReviewComments": "The Meowtica Track Collar receives exceptional praise for its accurate GPS tracking and reliable geofencing features. Pet owners appreciate the peace of mind it provides, especially for escape-prone pets. The waterproof design has proven durable through various outdoor adventures, and the battery life consistently meets or exceeds expectations. The health monitoring features have helped many users establish better exercise routines for their pets."
+  },
+  {
+    "id": 13,
+    "name": "Paws Mini Smart Hub",
+    "nameZh": "Paws迷你智能中枢",
+    "price": 69.99,
+    "rating": 4.6,
+    "category": "Smart Hubs",
+    "brand": "Meowtica",
+    "slug": "paws-mini-smart-hub",
+    "description": "The perfect entry-level smart home controller in a compact size. The Paws Mini Smart Hub offers essential connectivity for apartments and smaller homes, supporting up to 50 compatible devices. Featuring the same reliable Meowtica voice assistant and smartphone integration as our flagship hub, this space-saving solution brings smart home convenience to any living space without compromising on features.",
+    "descriptionZh": "小巧紧凑的完美入门级智能家居控制器。Paws迷你智能中枢为公寓和较小的住宅提供基本连接，支持多达50个兼容设备。具有与我们旗舰中枢相同的可靠Meowtica语音助手和智能手机集成，这种节省空间的解决方案为任何生活空间带来智能家居便利，而不影响功能。",
+    "manual": "/manuals/product_info_13.md",
+    "images": [
+      "/images/13/1b8557cf-dede-4a88-bfc7-ae2edd01fdbe.png",
+      "/images/13/34421e0a-2913-41a0-a91e-db0e0eee3ae6.png",
+      "/images/13/5daee11a-b229-47fa-afd3-777cce801e9a.png",
+      "/images/13/e6e34709-d739-4d25-9ec7-d901d61c425e.png"
+    ],
+    "summaryOfReviewComments": "Customers praise the Paws Mini Smart Hub for its affordability and ease of use in smaller spaces. The voice recognition is just as accurate as the full-sized hub, though some users note it has slightly fewer connection options. Many first-time smart home users mention this was the perfect starting point for their home automation journey."
+  },
+  {
+    "id": 14,
+    "name": "Smart Robot Mop",
+    "nameZh": "智能拖地机器人",
+    "price": 249.99,
+    "rating": 4.8,
+    "category": "Home Appliances",
+    "brand": "Meowtica",
+    "slug": "smart-robot-mop",
+    "description": "Keep your floors spotless with the Smart Robot Mop featuring advanced LiDAR mapping and navigation. This intelligent cleaning device includes precision water flow control, multiple cleaning modes, and app control capabilities. With up to 150 minutes of battery life and a 300ml water tank, it can clean up to 2000 sq ft on a single charge. The Smart Robot Mop automatically recognizes different rooms and allows you to set virtual boundaries and no-go zones.",
+    "descriptionZh": "使用具有先进LiDAR映射和导航功能的智能拖地机器人让您的地板一尘不染。这款智能清洁设备包括精确的水流控制、多种清洁模式和应用程序控制功能。电池续航时间长达150分钟，300毫升水箱，一次充电可清洁多达185平方米。智能拖地机器人自动识别不同房间，并允许您设置虚拟边界和禁区。",
+    "manual": "/manuals/product_info_14.md",
+    "images": [
+      "/images/14/0f53cfca-7fa8-4719-8b52-08cac3805dfc.png",
+      "/images/14/c94159a2-c070-4676-8a4b-5ccb5401678a.png",
+      "/images/14/b9fc22f2-13a9-43a7-9ba9-2ed16f624502.png",
+      "/images/14/6fe35e2a-09cc-4324-8031-8a9591cf803e.png"
+    ],
+    "summaryOfReviewComments": "Users are extremely impressed with the Smart Robot Mop's mapping accuracy and navigation. Many report that it recognized their home layout perfectly on the first run. The ability to set different water levels for different floor types is frequently praised. Reviewers with tile floors are particularly satisfied with the cleaning performance, and the quiet operation allows for cleaning even during work calls or while watching TV."
+  },
+  {
+    "id": 15,
+    "name": "Purr Temperature Sensor",
+    "nameZh": "Purr温度传感器",
+    "price": 34.99,
+    "rating": 4.5,
+    "category": "Sensors",
+    "brand": "Meowtica",
+    "slug": "purr-temperature-sensor",
+    "description": "Monitor precise temperature and humidity levels throughout your home with the Purr Temperature Sensor. This compact device provides accurate readings with notifications when conditions exceed your set thresholds. Perfect for monitoring sensitive areas like wine cellars, instrument rooms, or nurseries. Historical data tracking through the Meowtica app allows you to analyze environmental trends and optimize your climate control settings.",
+    "descriptionZh": "使用Purr温度传感器监控您家中的精确温度和湿度水平。这款紧凑型设备在条件超过您设定的阈值时提供准确读数并发送通知。非常适合监测对环境敏感的区域，如酒窖、乐器室或婴儿房。通过Meowtica应用程序跟踪历史数据，使您能够分析环境趋势并优化您的气候控制设置。",
+    "manual": "/manuals/product_info_15.md",
+    "images": [
+      "/images/15/4e94736c-16ed-42cd-91ac-cda8f770e71a.png",
+      "/images/15/97c8f4ec-d2d4-4041-9d39-994823c47e45.png",
+      "/images/15/650446c9-9816-4989-94cf-0c93cc3ba0d0.png",
+      "/images/15/f76473ea-6303-4f1a-adc5-1f63bc818555.png"
+    ],
+    "summaryOfReviewComments": "Users with climate-sensitive collections like wine or musical instruments find the Purr Temperature Sensor invaluable. The accuracy is frequently praised, with many verifying readings against laboratory-grade thermometers. Several reviewers mention using multiple units throughout their home to create temperature and humidity zones."
+  },
+  {
+    "id": 16,
+    "name": "Meowtica Outdoor Camera",
+    "nameZh": "Meowtica户外摄像头",
+    "price": 149.99,
+    "rating": 4.8,
+    "category": "Security",
+    "brand": "Meowtica",
+    "slug": "meowtica-outdoor-camera",
+    "description": "Protect your property's perimeter with the Meowtica Outdoor Camera, featuring 2K HDR video, color night vision, and integrated spotlight. This weatherproof security camera includes advanced AI detection that distinguishes between people, vehicles, and animals to reduce false alerts. The built-in siren can be triggered manually or automatically when suspicious activity is detected, while local storage options and encrypted cloud backup keep your footage secure.",
+    "descriptionZh": "使用Meowtica户外摄像头保护您的物业周边，具有2K HDR视频、彩色夜视和集成聚光灯功能。这款防风雨安全摄像头包含先进的AI检测功能，可区分人、车辆和动物，减少误报。当检测到可疑活动时，内置警报器可手动或自动触发，而本地存储选项和加密云备份确保您的视频资料安全。",
+    "manual": "/manuals/product_info_16.md",
+    "images": [
+      "/images/16/0cfdd130-80da-467b-9472-8135fef73464.png",
+      "/images/16/f5a39d10-2531-464e-b7d2-2d11385d99f7.png",
+      "/images/16/624d0398-c817-4912-98b2-ffa835db3077.png",
+      "/images/16/1b0d996c-bf9a-439b-8341-77ee41dc5859.png"
+    ],
+    "summaryOfReviewComments": "The Meowtica Outdoor Camera receives high praise for its exceptional video quality and reliable weather resistance. Users particularly appreciate the accurate AI detection that eliminates false alerts from small animals or moving shadows. The integrated spotlight feature is frequently mentioned as an effective deterrent against nighttime prowlers."
+  },
+  {
+    "id": 17,
+    "name": "WhiskerNet Pro Hub",
+    "nameZh": "WhiskerNet专业中枢",
+    "price": 179.99,
+    "rating": 4.9,
+    "category": "Smart Hubs",
+    "brand": "Meowtica",
+    "slug": "whiskernet-pro-hub",
+    "description": "Take your smart home to the next level with our premium WhiskerNet Pro Hub. Featuring enhanced wireless range, Thread and Matter compatibility, and dedicated processing for faster response times. This professional-grade hub supports up to 200 connected devices and includes advanced security protocols to keep your smart home network safe. The built-in backup battery ensures your smart home stays operational even during power outages.",
+    "descriptionZh": "使用我们的高级WhiskerNet专业中枢将您的智能家居提升到新水平。具有增强的无线范围、Thread和Matter兼容性以及专用处理功能，实现更快的响应时间。这款专业级中枢支持多达200个连接设备，并包含先进的安全协议，确保您的智能家居网络安全。内置备用电池确保您的智能家居即使在停电期间也能正常运行。",
+    "manual": "/manuals/product_info_17.md",
+    "images": [
+      "/images/17/40b992fa-190e-46d6-87f1-2a6583f66a05.png",
+      "/images/17/c2324487-ebe5-4872-9083-12e5f4b574e4.png",
+      "/images/17/b77e9f01-195b-4870-bc86-c4f988bc71e8.png",
+      "/images/17/f54405f4-5194-4586-9be6-9e22ed09a24e.png"
+    ],
+    "summaryOfReviewComments": "Professional installers and power users love the WhiskerNet Pro Hub for its exceptional range and reliability. The Matter protocol support receives particular praise for ensuring future compatibility across ecosystems. Users with larger homes specifically mention how the enhanced range eliminated dead zones they experienced with other hubs. The local processing capabilities and backup battery provide peace of mind during internet or power outages."
+  },
+  {
+    "id": 18,
+    "name": "WhiskerSense Ceiling Fan Controller",
+    "nameZh": "WhiskerSense吊扇控制器",
+    "price": 59.99,
+    "rating": 4.6,
+    "category": "Climate Control",
+    "brand": "Meowtica",
+    "slug": "whiskersense-ceiling-fan-controller",
+    "description": "Transform your ordinary ceiling fan into a smart climate control device with the WhiskerSense Controller. This retrofit solution works with most standard ceiling fans, allowing you to control speed and lighting through smartphone app or voice commands. Create schedules based on temperature, time of day, or occupancy, and integrate with your smart thermostat for comprehensive climate management that reduces energy costs.",
+    "descriptionZh": "使用WhiskerSense控制器将您的普通吊扇转变为智能气候控制设备。这种改装解决方案适用于大多数标准吊扇，允许您通过智能手机应用或语音命令控制速度和照明。根据温度、一天中的时间或房间占用情况创建时间表，并与您的智能恒温器集成，实现全面的气候管理，降低能源成本。",
+    "manual": "/manuals/product_info_18.md",
+    "images": [
+      "/images/18/23e88043-e29b-47e5-8320-a228d12193a1.png",
+      "/images/18/ce076c33-6745-4cf8-ae9b-99348eb45702.png",
+      "/images/18/32154d0d-6a8b-4924-8a2d-a65d119c626e.png",
+      "/images/18/fc768821-ce57-4a88-ae15-5d18d4dd55c8.png"
+    ],
+    "summaryOfReviewComments": "Users appreciate how the WhiskerSense Controller brings smart functionality to their existing ceiling fans without requiring complete replacement. The integration with temperature sensors for automatic speed adjustment is frequently cited as a favorite feature. Installation is straightforward for most users with basic wiring knowledge. The temperature automation has helped many users maintain more comfortable home environments while reducing energy costs."
+  },
+  {
+    "id": 19,
+    "name": "NightGlow Smart Light Strip",
+    "nameZh": "NightGlow智能灯带",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Lighting",
+    "brand": "Meowtica",
+    "slug": "nightglow-smart-light-strip",
+    "description": "Add ambiance and accent lighting to any space with the flexible NightGlow Smart Light Strip. This 16.4ft RGB strip can be cut to size or extended to fit your needs, with adhesive backing for easy installation under cabinets, behind TVs, along stairs, or anywhere you want dynamic lighting. Create custom patterns, sync with music, or set schedules through the Meowtica app or voice commands.",
+    "descriptionZh": "使用灵活的NightGlow智能灯带为任何空间添加氛围和装饰照明。这款5米长的RGB灯带可以根据您的需求裁剪或延长，带有粘性背面，便于安装在橱柜下方、电视背后、楼梯沿线或您想要动态照明的任何地方。通过Meowtica应用程序或语音命令创建自定义模式、与音乐同步或设置时间表。",
+    "manual": "/manuals/product_info_19.md",
+    "images": [
+      "/images/19/4cb47cf4-5f13-4822-85b4-2c8c8408db37.png",
+      "/images/19/a9cc514d-c8ea-4a95-b5f6-a38e4b57f517.png",
+      "/images/19/6c9b8042-69f9-4923-8ba8-a77e927628f2.png",
+      "/images/19/b28ca5bd-f703-4ace-8feb-e36f2c9c8a97.png"
+    ],
+    "summaryOfReviewComments": "The NightGlow Smart Light Strip receives glowing reviews for its vibrant colors and flexible installation options. Many users purchase multiple strips for different areas of their homes after being impressed with their first installation. The music synchronization feature is particularly popular for entertainment spaces."
+  },
+  {
+    "id": 20,
+    "name": "Whisker Ceiling Light",
+    "nameZh": "Whisker吸顶灯",
+    "price": 79.99,
+    "rating": 4.6,
+    "category": "Lighting",
+    "brand": "Meowtica",
+    "slug": "whisker-ceiling-light",
+    "description": "Replace your standard ceiling fixture with the Whisker Ceiling Light for smart illumination in any room. This flush-mount fixture offers tunable white light from warm to cool, perfect for matching your circadian rhythm or setting the mood. Control brightness and color temperature through voice commands, smartphone app, or integrate with sensors for automatic lighting based on occupancy and ambient light levels.",
+    "descriptionZh": "用Whisker吸顶灯替换您的标准天花板灯具，为任何房间提供智能照明。这款嵌入式灯具提供可调节的白光，从暖色到冷色，完美匹配您的生理节律或设置氛围。通过语音命令、智能手机应用控制亮度和色温，或与传感器集成，根据占用情况和环境光水平实现自动照明。",
+    "manual": "/manuals/product_info_20.md",
+    "images": [
+      "/images/20/7e626010-0ad0-4e9c-9f87-f2e1afdfc1dd.png",
+      "/images/20/341a7ade-3d6f-43cf-8105-3099a935839b.png",
+      "/images/20/919e1e2a-b1e1-4b5f-a223-e25454fa0740.png",
+      "/images/20/ab8b6369-d14f-4d01-a3af-59cf0779180b.png"
+    ],
+    "summaryOfReviewComments": "The Whisker Ceiling Light receives praise for its sleek design and excellent light quality. Many users report improved sleep after programming the light to gradually shift from cool to warm tones in the evening. The simple installation process is frequently mentioned as a significant benefit."
+  },
+  {
+    "id": 21,
+    "name": "PurrFect Climate Monitor",
+    "nameZh": "PurrFect气候监测器",
+    "price": 99.99,
+    "rating": 4.7,
+    "category": "Climate Control",
+    "brand": "Meowtica",
+    "slug": "purrfect-climate-monitor-2",
+    "description": "Track and optimize environmental conditions throughout your home with the PurrFect Climate Monitor. This comprehensive system features a base station with wireless satellite sensors to monitor temperature, humidity, air pressure, and CO2 levels across multiple rooms. The intuitive dashboard displays historical trends and provides personalized recommendations for improved comfort, health, and energy efficiency.",
+    "descriptionZh": "使用PurrFect气候监测器跟踪和优化整个家庭的环境条件。这个全面的系统配备了基站和无线卫星传感器，用于监测多个房间的温度、湿度、气压和二氧化碳水平。直观的仪表板显示历史趋势，并提供个性化建议以改善舒适度、健康和能源效率。",
+    "manual": "/manuals/product_info_21.md",
+    "images": [
+      "/images/21/278e5a88-fbc3-4355-8375-7fa764d5c5ea.png",
+      "/images/21/73c0c2c9-b8d3-4f22-9205-5e688e8ff881.png",
+      "/images/21/860cc5f0-db4f-4174-9826-cbcac63f2942.png",
+      "/images/21/bdd16ac1-7631-444e-aeb8-cbc1116fd239.png"
+    ],
+    "summaryOfReviewComments": "Users report significant improvements in home comfort and energy efficiency after installing the PurrFect Climate Monitor. The multi-room sensing capability helps identify temperature variations and air quality issues throughout the home. Customers with environmental sensitivities or valuable collections particularly appreciate the detailed monitoring and alert features. The integration with smart thermostats receives high praise for creating more balanced climate control."
+  },
+  {
+    "id": 22,
+    "name": "WhiskerControl Smart Power Strip",
+    "nameZh": "WhiskerControl智能插线板",
+    "price": 49.99,
+    "rating": 4.8,
+    "category": "Smart Plugs",
+    "brand": "Meowtica",
+    "slug": "whiskercontrol-smart-power-strip",
+    "description": "Upgrade your workspace or entertainment center with the WhiskerControl Smart Power Strip. Featuring four individually controllable outlets and two always-on USB charging ports, this power strip lets you manage multiple devices with precision. Monitor energy usage for each outlet separately, create custom schedules, or use voice commands to control specific devices. Built-in surge protection safeguards your valuable electronics.",
+    "descriptionZh": "使用WhiskerControl智能插线板升级您的工作空间或娱乐中心。具有四个单独可控的插座和两个常开USB充电端口，这款插线板让您精确管理多个设备。单独监控每个插座的能源使用情况，创建自定义时间表，或使用语音命令控制特定设备。内置浪涌保护为您的贵重电子设备提供安全保障。",
+    "manual": "/manuals/product_info_22.md",
+    "images": [
+      "/images/22/2a4532f0-8c07-4dc7-9039-8862c3a2199b.png",
+      "/images/22/40fcfd2c-ba6b-49ec-a36a-d1d9f13c55f3.png",
+      "/images/22/491f4491-703e-43e7-a4d9-1f994fd30118.png",
+      "/images/22/eec5312a-dc60-4c61-a887-21d043a8dccc.png"
+    ],
+    "summaryOfReviewComments": "The WhiskerControl Smart Power Strip receives excellent reviews for its versatility and energy monitoring capabilities. Users particularly appreciate being able to control and monitor individual outlets, with many mentioning how it helped them identify energy-wasting devices. The compact design despite the advanced features is frequently highlighted as a benefit."
+  },
+  {
+    "id": 23,
+    "name": "PurrFect Outdoor Smart Plug",
+    "nameZh": "PurrFect户外智能插头",
+    "price": 39.99,
+    "rating": 4.7,
+    "category": "Smart Plugs",
+    "brand": "Meowtica",
+    "slug": "purrfect-outdoor-smart-plug",
+    "description": "Extend your smart home to the outdoors with this weatherproof dual outlet smart plug. Control your landscape lighting, holiday decorations, or patio features through the Meowtica app or voice assistant. Each outlet can be controlled independently, allowing you to create custom schedules or sync with sunset and sunrise times. The rugged design withstands rain, snow, and temperature extremes for year-round outdoor use.",
+    "descriptionZh": "使用这款防风雨双插座智能插头将您的智能家居扩展到户外。通过Meowtica应用程序或语音助手控制您的景观照明、节日装饰或露台功能。每个插座可以独立控制，允许您创建自定义时间表或与日落和日出时间同步。坚固的设计能够抵御雨雪和极端温度，全年户外使用。",
+    "manual": "/manuals/product_info_23.md",
+    "images": [
+      "/images/23/15553290-8546-4881-a328-73124a8139a0.png",
+      "/images/23/55d0fdd2-f611-4028-bbaf-d9e4fb85c288.png",
+      "/images/23/66010d68-5a7d-4a4d-8f9e-0b6ce68e32ee.png",
+      "/images/23/f5286a20-0901-4cda-8dcf-a78972feed4c.png"
+    ],
+    "summaryOfReviewComments": "The PurrFect Outdoor Smart Plug has proven its durability through all seasons according to user reviews. The independent outlet control is especially popular for holiday decorations and landscape lighting. Many users mention how they've expanded to multiple units around their yard and patio areas after seeing how reliable the first one was."
+  },
+  {
+    "id": 24,
+    "name": "Whisker Mini Smart Plug",
+    "nameZh": "Whisker迷你智能插头",
+    "price": 19.99,
+    "rating": 4.5,
+    "category": "Smart Plugs",
+    "brand": "Meowtica",
+    "slug": "whisker-mini-smart-plug",
+    "description": "The most compact smart plug in our lineup, the Whisker Mini is designed to fit into tight spaces without blocking adjacent outlets. Despite its small size, it delivers all the functionality you expect, including remote control, energy monitoring, and voice assistant compatibility. Create schedules or automate devices to turn on and off based on your location, time of day, or in response to other smart home events.",
+    "descriptionZh": "我们产品线中最紧凑的智能插头，Whisker迷你智能插头设计为适合狭小空间，不阻塞相邻插座。尽管体积小，但它提供您期望的所有功能，包括远程控制、能源监控和语音助手兼容性。根据您的位置、一天中的时间或响应其他智能家居事件，创建时间表或自动化设备开关。",
+    "manual": "/manuals/product_info_24.md",
+    "images": [
+      "/images/24/01c7342c-8a86-43c0-b3ea-0a0c9632c5dc.png",
+      "/images/24/352f9d2e-b2f5-4b41-9fd9-0c77c884c0fb.png",
+      "/images/24/372821d1-816e-47d6-a267-7b5d48040d8a.png",
+      "/images/24/96024cf9-e133-4d1a-8946-ce811eb50a5b.png"
+    ],
+    "summaryOfReviewComments": "Users consistently mention the Whisker Mini Smart Plug's impressively small size as its standout feature. The reliability and responsiveness match larger smart plugs, while allowing users to utilize outlets that were previously inaccessible due to space constraints. Many reviewers purchase these in bulk after trying their first one."
+  }
+]

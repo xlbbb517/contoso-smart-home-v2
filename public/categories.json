@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Smart Hubs",
+    "nameZh": "智能中枢",
+    "slug": "smart-hubs",
+    "description": "Central control units that connect and manage all your smart home devices. These hubs serve as the brain of your smart home ecosystem, enabling seamless integration and automation between different devices for a truly connected home experience.",
+    "descriptionZh": "连接并管理所有智能家居设备的中央控制单元。这些智能中枢作为智能家居生态系统的大脑，实现各种设备之间的无缝集成和自动化，打造真正互联的家居体验。",
+    "products": []
+  },
+  {
+    "name": "Sensors",
+    "nameZh": "传感器",
+    "slug": "sensors",
+    "description": "Smart monitoring devices that keep you informed about your home environment. From motion detection to water leak alerts, these intelligent sensors provide real-time data and notifications to help protect your home and family.",
+    "descriptionZh": "为您提供家居环境信息的智能监测设备。从动作检测到漏水警报，这些智能传感器提供实时数据和通知，帮助保护您的家庭和家人安全。",
+    "products": []
+  },
+  {
+    "name": "Security",
+    "nameZh": "安全系统",
+    "slug": "security",
+    "description": "Advanced home security devices designed to protect what matters most. Featuring smart cameras, doorbells, and locks with remote monitoring capabilities, these products help you keep an eye on your home from anywhere in the world.",
+    "descriptionZh": "专为保护您最珍视的一切而设计的高级家居安全设备。配备远程监控功能的智能摄像头、门铃和锁具，让您在世界任何地方都能关注家中情况。",
+    "products": []
+  },
+  {
+    "name": "Climate Control",
+    "nameZh": "温控系统",
+    "slug": "climate-control",
+    "description": "Intelligent temperature management systems that create the perfect atmosphere while optimizing energy usage. These smart devices learn your preferences and adjust automatically for maximum comfort and efficiency.",
+    "descriptionZh": "在优化能源使用的同时创造完美环境的智能温度管理系统。这些智能设备能够学习您的偏好并自动调节，实现最佳舒适度和效率。",
+    "products": []
+  },
+  {
+    "name": "Lighting",
+    "nameZh": "照明设备",
+    "slug": "lighting",
+    "description": "Transform any space with smart lighting solutions that offer millions of colors and customizable settings. Control the ambiance of your home with voice commands, automated schedules, or mobile apps for the perfect lighting every time.",
+    "descriptionZh": "通过提供数百万种颜色和可定制设置的智能照明解决方案，改变任何空间的氛围。使用语音命令、自动化计划或手机应用控制家居氛围，每次都能获得完美照明效果。",
+    "products": []
+  },
+  {
+    "name": "Smart Plugs",
+    "nameZh": "智能插座",
+    "slug": "smart-plugs",
+    "description": "Convert ordinary appliances into smart devices with these simple yet powerful adapters. Monitor energy usage, create schedules, and control any plugged-in device remotely to enhance convenience and reduce energy waste.",
+    "descriptionZh": "通过这些简单而强大的适配器，将普通家电转变为智能设备。监控能源使用情况，创建定时任务，远程控制任何接入设备，提高便利性并减少能源浪费。",
+    "products": []
+  },
+  {
+    "name": "Home Appliances",
+    "nameZh": "家用电器",
+    "slug": "home-appliances",
+    "description": "Smart home devices that enhance your daily living experience. From vacuum cleaners to coffee makers, these connected appliances can be controlled remotely and integrated with your smart home system for effortless home management and automation.",
+    "descriptionZh": "提升日常生活体验的智能家居设备。从吸尘器到咖啡机，这些联网电器可以远程控制并与您的智能家居系统集成，实现轻松的家居管理和自动化。",
+    "products": []
+  },
+  {
+    "name": "Pet Technology",
+    "nameZh": "宠物科技",
+    "slug": "pet-technology",
+    "description": "Smart devices designed specifically for your furry family members. From location tracking to health monitoring, these innovative products help you take better care of your pets and strengthen the bond between you and your four-legged companions.",
+    "descriptionZh": "专为您毛茸茸的家庭成员设计的智能设备。从位置追踪到健康监测，这些创新产品帮助您更好地照顾宠物，增强您与四足伙伴之间的感情纽带。",
+    "products": []
+  }
+]

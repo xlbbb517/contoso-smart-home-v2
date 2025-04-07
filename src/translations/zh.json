@@ -1,0 +1,21 @@
+{
+  "home": {
+    "title": "Contoso 智能家居",
+    "subtitle": "用 Contoso 改变您的家 - 现代生活的智能体验",
+    "description": "探索我们创新的智能家居产品系列，旨在让您的生活更加舒适、安全和高效。从智能集线器到直观传感器，我们拥有一切您需要的产品，以创造完美的互联家居体验。"
+  },
+  "header": {
+    "home": "首页",
+    "smartHubs": "智能中枢",
+    "security": "安全系统",
+    "lighting": "照明设备",
+    "sensors": "传感器"
+  },
+  "product": {
+    "buyNow": "立即购买",
+    "learnMore": "了解更多",
+    "outOfStock": "缺货",
+    "discount": "优惠11%",
+    "loading": "正在加载..."
+  }
+}

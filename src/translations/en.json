@@ -1,0 +1,21 @@
+{
+  "home": {
+    "title": "Contoso Smart Home",
+    "subtitle": "Transform Your Home with Contoso - Smart Living for Modern Life",
+    "description": "Discover our innovative range of smart home products designed to make your life more comfortable, secure, and efficient. From intelligent hubs to intuitive sensors, we have everything you need to create the perfect connected home experience."
+  },
+  "header": {
+    "home": "Home",
+    "smartHubs": "Smart Hubs",
+    "security": "Security",
+    "lighting": "Lighting",
+    "sensors": "Sensors"
+  },
+  "product": {
+    "buyNow": "Buy now",
+    "learnMore": "Learn more",
+    "outOfStock": "Out of stock",
+    "discount": "11% off",
+    "loading": "Loading..."
+  }
+}

@@ -1,141 +1,89 @@
-"use client";
-
-import { FormEvent, useEffect, useRef, useState } from "react";
-import { XMarkIcon, CameraIcon } from "@heroicons/react/24/outline";
+import { FormEvent, useEffect, useRef, useState, useCallback } from "react";
+import { XIcon, CameraIcon } from "@heroicons/react/outline";
 
 interface Props {
   onVideoClick: (dataUrl: string) => void;
   onClose: () => void;
 }
 
-const Video = ({ onVideoClick, onClose }: Props) => {
-  const [selectedDevice, setSelectedDevice] = useState<MediaDeviceInfo>();
-  const [showCamera, setShowCamera] = useState<boolean>(false);
-  const [devices, setDevices] = useState<MediaDeviceInfo[]>([]);
+export const Video = ({ onVideoClick, onClose }: Props) => {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [stream, setStream] = useState<MediaStream | null>(null);
 
-  const getMediaDevices = (): Promise<MediaDeviceInfo[]> => {
-    return new Promise((resolve, reject) => {
-      navigator.mediaDevices
-        .enumerateDevices()
-        .then((devices) => {
-          resolve(devices.filter((device) => device.kind === "videoinput"));
-        })
-        .catch((err) => {
-          reject(err);
-        });
-    });
-  };
+  const stopStream = useCallback(() => {
+    if (stream) {
+      stream.getTracks().forEach(track => track.stop());
+    }
+  }, [stream]);
 
   useEffect(() => {
-    const device = localStorage.getItem("selectedDevice");
-    getMediaDevices().then((devices) => {
-      setDevices(devices);
-      if (device) {
-        const parsedDevice = JSON.parse(device);
-        setSelectedDevice(
-          devices.find((d) => d.deviceId === parsedDevice.deviceId)
+    navigator.mediaDevices
+      .getUserMedia({ video: true })
+      .then((mediaStream) => {
+        setStream(mediaStream);
+        if (videoRef.current) {
+          videoRef.current.srcObject = mediaStream;
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
+    return stopStream;
+  }, [stopStream]);
+
+  const handleClick = (e: FormEvent) => {
+    e.preventDefault();
+    if (videoRef.current && canvasRef.current) {
+      const context = canvasRef.current.getContext("2d");
+      if (context) {
+        context.drawImage(
+          videoRef.current,
+          0,
+          0,
+          canvasRef.current.width,
+          canvasRef.current.height
         );
-      } else {
-        setSelectedDevice(devices[0]);
-      }
-    });
-  }, []);
-
-  useEffect(() => {
-    if (selectedDevice && videoRef.current) {
-      navigator.mediaDevices
-        .getUserMedia({
-          video: { deviceId: selectedDevice.deviceId },
-        })
-        .then((stream) => {
-          videoRef.current!.srcObject = stream;
-          setShowCamera(true);
-        });
-    } else {
-      setShowCamera(false);
-    }
-    if (selectedDevice) {
-      localStorage.setItem(
-        "selectedDevice",
-        JSON.stringify({ deviceId: selectedDevice.deviceId })
-      );
-    }
-  }, [selectedDevice]);
-
-  const handleVideoClick = () => {
-    if (videoRef.current) {
-      const m = 256;
-      const canvas = document.createElement("canvas");
-      canvas.width = Math.floor(
-        videoRef.current.videoWidth * (m / videoRef.current.videoHeight)
-      );
-      canvas.height = Math.floor(
-        videoRef.current.videoHeight * (m / videoRef.current.videoHeight)
-      );
-      const ctx = canvas.getContext("2d");
-      if (ctx) {
-        ctx.drawImage(videoRef.current, 0, 0, canvas.width, canvas.height);
-        const image = canvas.toDataURL();
-        onVideoClick(image);
+        const dataUrl = canvasRef.current.toDataURL("image/png");
+        onVideoClick(dataUrl);
       }
     }
   };
 
   return (
-    <div className="fixed backdrop-blur-sm backdrop-brightness-50 h-full w-full z-20">
-      <div className="grid h-screen place-items-center z-50">
-        <div className="bg-white rounded-xl p-5 flex flex-col shadow-sm border border-gray-100">
-          <div className="w-full flex flex-row gap-3">
-            <select
-              id="device"
-              name="country"
-              className="grow rounded-lg border border-gray-200 focus:border-accent focus:ring-1 focus:ring-accent outline-none p-2 text-secondary-light"
-              value={selectedDevice?.deviceId}
-              title="Select a device"
-              onInput={(e: FormEvent<HTMLSelectElement>) =>
-                setSelectedDevice(
-                  devices.find((d) => d.deviceId === e.currentTarget.value)
-                )
-              }
-            >
-              {devices.map((device) => {
-                return (
-                  <option key={device.deviceId} value={device.deviceId}>
-                    {device.label}
-                  </option>
-                );
-              })}
-            </select>
-            {showCamera && (
-              <div
-                className="bg-white rounded-full p-2 shadow-sm border border-gray-200 hover:bg-hover transition-colors cursor-pointer"
-                onClick={handleVideoClick}
-              >
-                <CameraIcon className="w-6 stroke-accent" />
-              </div>
-            )}
-            <div
-              className="bg-white rounded-full p-2 shadow-sm border border-gray-200 hover:bg-hover transition-colors cursor-pointer"
-              onClick={() => onClose()}
-            >
-              <XMarkIcon className="w-6 stroke-secondary" />
-            </div>
-          </div>
-          <div className="mt-4">
-            <video
-              ref={videoRef}
-              autoPlay={true}
-              className="rounded-lg shadow-sm aspect-auto outline-none overflow-hidden w-[640px] border border-gray-100"
-              title="Click to take a picture"
-              onClick={handleVideoClick}
-            ></video>
-          </div>
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white p-4 rounded-lg shadow-lg relative">
+        <button
+          onClick={onClose}
+          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+        >
+          <XIcon className="w-6 h-6" />
+        </button>
+        <div className="flex flex-col items-center">
+          <video
+            ref={videoRef}
+            autoPlay
+            playsInline
+            className="w-[640px] h-[480px] bg-gray-200 rounded-lg"
+          />
+          <canvas
+            ref={canvasRef}
+            width="640"
+            height="480"
+            className="hidden"
+          />
+          <button
+            onClick={handleClick}
+            className="mt-4 bg-secondary-dark text-white px-4 py-2 rounded hover:bg-opacity-90 transition-colors flex items-center gap-2"
+          >
+            <CameraIcon className="w-6 h-6" />
+            Take Photo
+          </button>
         </div>
       </div>
     </div>
   );
 };
 
-Video.displayName = "Video";
 export default Video;

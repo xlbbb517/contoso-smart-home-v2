@@ -3,10 +3,9 @@
 import Image from "next/image";
 import Block from "@/components/block";
 import { ProductGroup, Product } from "@/lib/types";
-import Header from "@/components/header";
-import clsx from "clsx";
-import { getImageWithTimestamp } from "@/lib/imageUtils";
 import { useTranslation } from "@/lib/language-context";
+import { getImageWithTimestamp } from "@/lib/imageUtils";
+import clsx from "clsx";
 import { useEffect, useState } from "react";
 
 export default function Home({
@@ -55,7 +54,6 @@ export default function Home({
   if (!isClient) {
     return (
       <>
-        <Header params={{slug: ''}} searchParams={searchParams} />
         <div className="flex justify-center items-center min-h-screen">
           <div className="text-center">Loading...</div>
         </div>
@@ -65,7 +63,6 @@ export default function Home({
 
   return (
     <>
-      <Header params={{slug: ''}} searchParams={searchParams} />
       <Block
         outerClassName="bg-primary border-b border-gray-100"
         innerClassName=""

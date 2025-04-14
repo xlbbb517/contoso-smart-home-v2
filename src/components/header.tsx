@@ -1,22 +1,16 @@
-'use client';
-
-import { useState, useEffect } from "react";
-import clsx from "clsx";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Block from "@/components/block";
-import { HomeIcon, ShoppingCartIcon } from "@heroicons/react/24/outline";
+import { HomeIcon, ShoppingBagIcon } from "@heroicons/react/outline";
 import { getImageWithTimestamp } from "@/lib/imageUtils";
 import LanguageSwitcher from "./language-switcher";
 import { useTranslation } from "@/lib/language-context";
 
-export const Header = ({
-  params,
-  searchParams,
-}: {
-  params: { slug: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}) => {
+export const Header = () => {
   const { t, locale } = useTranslation();
+  const router = useRouter();
   const [isClient, setIsClient] = useState(false);
   
   // 使用 useEffect 来防止水合不匹配
@@ -26,7 +20,7 @@ export const Header = ({
   
   const user = {
     name: "Jen Yu",
-    email: "smart.home@meowtica.com",
+    email: "smart.home@contoso.com",
     image: "/people/jenyu.jpg",
   };
 
@@ -36,7 +30,7 @@ export const Header = ({
       innerClassName="h-16 flex flex-row center items-center"
     >
       <div className="flex items-center">
-        <a href={isClient ? `/${locale}${searchParams?.type ? "?type=" + searchParams.type : ""}` : "#"} className="flex items-center">
+        <a href={isClient ? `/${locale}${router.query.type ? "?type=" + router.query.type : ""}` : "#"} className="flex items-center">
           <div className="flex">
             <HomeIcon className="mr-1 h-6 w-6 text-primary-dark" />
             <div className="mr-2 text-2xl font-bold text-secondary-light">Contoso</div>
@@ -68,7 +62,7 @@ export const Header = ({
         {isClient && <LanguageSwitcher />}
         
         <div className="relative">
-          <ShoppingCartIcon className="w-6 h-6 text-secondary hover:text-secondary-light transition-colors cursor-pointer" />
+          <ShoppingBagIcon className="w-6 h-6 text-secondary hover:text-secondary-light transition-colors cursor-pointer" />
           <div className="absolute -top-2 -right-2 bg-accent text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
             0
           </div>

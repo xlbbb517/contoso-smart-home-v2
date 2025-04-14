@@ -1,16 +1,14 @@
-"use client";
-
 import { useEffect, useRef, useState, useReducer } from "react";
 import {
-  ChatBubbleLeftRightIcon,
-  XMarkIcon,
+  ChatIcon,
+  XIcon,
   PaperAirplaneIcon,
   CameraIcon,
-  ArrowPathIcon,
-} from "@heroicons/react/24/outline";
+  RefreshIcon,
+} from "@heroicons/react/outline";
 import Turn from "./turn";
 import { ChatTurn, ChatType } from "@/lib/types";
-import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/router";
 import Video from "./video";
 import {
   sendGroundedMessage,
@@ -54,25 +52,25 @@ export const Chat = () => {
 
   const [state, dispatch] = useReducer(chatReducer, { turns: [] });
 
-  const searchParams = useSearchParams();
+  const router = useRouter();
 
   useEffect(() => {
-    const params = searchParams.getAll("type");
-    if (params.includes("grounded")) {
+    const params = router.query.type as string[];
+    if (params && params.includes("grounded")) {
       setShowCamera(false);
       setChatType(ChatType.Grounded);
-    } else if (params.includes("video")) {
+    } else if (params && params.includes("video")) {
       setVideo(true);
       setShowCamera(true);
       setChatType(ChatType.Video);
-    } else if (params.includes("visual")) {
+    } else if (params && params.includes("visual")) {
       setShowCamera(true);
       setChatType(ChatType.Visual);
     } else {
       setShowCamera(false);
       setChatType(ChatType.PromptFlow);
     }
-  }, [searchParams]);
+  }, [router.query.type]);
 
   const chatDiv = useRef<HTMLDivElement>(null);
   const fileInput = useRef<HTMLInputElement>(null);
@@ -146,7 +144,7 @@ export const Chat = () => {
     const file = e.target.files?.[0];
     if (!file) return;
 
-    readFile(file!).then((data) => {
+    readFile(file).then((data) => {
       if (!data) return;
       setCurrentImage(data);
       e.target.value = "";
@@ -252,7 +250,7 @@ export const Chat = () => {
         {showChat && (
           <div className="mb-3 h-[calc(100vh-7rem)] shadow-sm border border-gray-100 bg-white rounded-xl w-[650px] flex flex-col">
             <div className="text-right p-2 flex flex-col">
-              <ArrowPathIcon className="w-5 stroke-secondary hover:stroke-secondary-light transition-colors cursor-pointer" onClick={reset} />
+              <RefreshIcon className="w-5 stroke-secondary hover:stroke-secondary-light transition-colors cursor-pointer" onClick={reset} />
             </div>
             {/* chat section */}
             <div
@@ -321,9 +319,9 @@ export const Chat = () => {
           onClick={toggleChat}
         >
           {showChat ? (
-            <XMarkIcon className="w-6" />
+            <XIcon className="w-6" />
           ) : (
-            <ChatBubbleLeftRightIcon className="w-6" />
+            <ChatIcon className="w-6" />
           )}
         </div>
       </div>

@@ -1,8 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['localhost'],
+  },
+  i18n: {
+    locales: ['en', 'zh'],
+    defaultLocale: 'en',
+  },
   output: 'standalone',
-  // Removing i18n configuration as it's not compatible with App Router in Next.js 13+
-  // i18n is now handled via middleware.ts file
   
   // 添加缓存控制配置
   async headers() {

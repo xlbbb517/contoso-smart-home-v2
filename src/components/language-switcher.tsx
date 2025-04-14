@@ -1,47 +1,26 @@
 'use client';
 
-import { useTranslation } from '@/lib/language-context';
+import { useRouter } from 'next/router';
 
 export default function LanguageSwitcher() {
-  const { locale, setLocale } = useTranslation();
+  const router = useRouter();
+  const { locale, pathname, query, asPath } = router;
 
-  // 获取当前路径并保留路径部分（不包括语言前缀）
-  const getCurrentPath = () => {
-    if (typeof window === 'undefined') return '/';
-    
-    let path = window.location.pathname;
-    // 移除语言前缀
-    if (path.startsWith('/en') || path.startsWith('/zh')) {
-      path = path.substring(3) || '/';
-    }
-    return path;
+  const handleLanguageChange = (newLocale: string) => {
+    router.push({ pathname, query }, asPath, { locale: newLocale });
   };
 
   return (
     <div className="flex gap-2">
       <button 
         className={`px-2 py-1 rounded text-sm ${locale === 'en' ? 'bg-secondary-dark text-white' : 'bg-gray-200 text-secondary'}`}
-        onClick={() => {
-          setLocale('en');
-          // 额外的备用跳转方式，确保切换有效
-          if (locale === 'zh') {
-            const currentPath = getCurrentPath();
-            window.location.href = `/en${currentPath === '/' ? '' : currentPath}`;
-          }
-        }}
+        onClick={() => handleLanguageChange('en')}
       >
         English
       </button>
       <button 
         className={`px-2 py-1 rounded text-sm ${locale === 'zh' ? 'bg-secondary-dark text-white' : 'bg-gray-200 text-secondary'}`}
-        onClick={() => {
-          setLocale('zh');
-          // 额外的备用跳转方式，确保切换有效
-          if (locale === 'en') {
-            const currentPath = getCurrentPath();
-            window.location.href = `/zh${currentPath === '/' ? '' : currentPath}`;
-          }
-        }}
+        onClick={() => handleLanguageChange('zh')}
       >
         中文
       </button>

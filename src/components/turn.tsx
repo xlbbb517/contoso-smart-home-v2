@@ -1,9 +1,9 @@
 import clsx from "clsx";
 import { ReactNode, useEffect } from "react";
 import {
-  UserCircleIcon,
-  BuildingStorefrontIcon,
-} from "@heroicons/react/24/outline";
+  UserIcon,
+  OfficeBuildingIcon,
+} from "@heroicons/react/outline";
 
 import { useRemark } from "react-remark";
 import remarkGemoji from "remark-gemoji";
@@ -88,7 +88,7 @@ export const Turn = ({ turn, type }: Props) => {
           {getContent(turn)}
         </div>
         <div>
-          <UserCircleIcon className="w-6 stroke-secondary" />
+          <UserIcon className="w-6 stroke-secondary" />
         </div>
       </div>
     );
@@ -99,7 +99,7 @@ export const Turn = ({ turn, type }: Props) => {
           {getContent(turn)}
         </div>
         <div>
-          <BuildingStorefrontIcon className="w-6 stroke-accent" />
+          <OfficeBuildingIcon className="w-6 stroke-accent" />
         </div>
       </div>
     );
